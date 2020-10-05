@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to right,rgb(0, 75, 100),blue);
+}
+.rect{
+    width: 300px;
+    height: 99.62vh;
+    background: linear-gradient(to right,rgb(0, 255, 170),blue);
+}
+.sq{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+}
+.button1,
+.button2,
+.button3,
+.button4,
+.button5{
+    height: 81px;
+    background: linear-gradient(to right,rgb(238, 255, 0),blue);
+    cursor: pointer;
+    font-size: 40px;
+    text-align: left;
+}
+i{
+    margin-left: 50px;
+    text-align: center;
+}
