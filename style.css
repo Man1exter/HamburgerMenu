@@ -25,11 +25,12 @@ body{
     background: linear-gradient(to right,rgb(238, 255, 0),blue);
     cursor: pointer;
     font-size: 40px;
-    text-align: left;
 }
 i{
-    left: 100%;
-    position: relative;
+    margin-left: 10px;
+}
+i:hover{
+    color: thistle;
 }
 .button1:hover,
 .button2:hover,
