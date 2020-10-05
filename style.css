@@ -25,9 +25,12 @@ body{
     background: linear-gradient(to right,rgb(238, 255, 0),blue);
     cursor: pointer;
     font-size: 40px;
+    transition: .3s linear;
 }
 i{
     margin-left: 10px;
+    transition: .3s linear;
+    color: rgb(0, 255, 234);
 }
 i:hover{
     color: thistle;
@@ -38,4 +41,5 @@ i:hover{
 .button4:hover,
 .button5:hover{
     color: white;
+    margin-left: 20px;
 }
