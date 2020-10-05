@@ -28,6 +28,13 @@ body{
     text-align: left;
 }
 i{
-    margin-left: 50px;
-    text-align: center;
+    left: 100%;
+    position: relative;
+}
+.button1:hover,
+.button2:hover,
+.button3:hover,
+.button4:hover,
+.button5:hover{
+    color: white;
 }
