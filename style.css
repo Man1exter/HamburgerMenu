@@ -84,3 +84,7 @@ display: none;
 left: 16%;
 transition: .3s linear;
 }
+.sekt{
+    left: 16%;
+    display: block;
+}

@@ -8,13 +8,15 @@ const times = document.querySelector(".fa-times");
 const shows = () => {
 changer.classList.add("burger");
 move.classList.add("show");
-bars.classList.remove("hide");
+bars.classList.add("hide");
+times.classList.add("sekt");
 };
 
 const hides = () => {
 changer.classList.remove("burger");
-bars.classList.add("hide");
-times.classList.add("show");
+times.classList.remove("sekt");
+bars.classList.remove("hide");
+move.classList.remove("show");
 };
 
 
