@@ -6,8 +6,8 @@ const times = document.querySelector(".fa-times");
 
 
 const shows = () => {
-move.classList.toggle("show")
-changer.classList.toggle("burger")
+move.classList.add("show");
+changer.classList.toggle("burger");
 }
 
 
