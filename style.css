@@ -81,3 +81,6 @@ display: none;
 left: 16%;
 transition: .3s linear;
 }
+.extes{
+    display: block;
+}
