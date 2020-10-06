@@ -45,3 +45,25 @@ i:hover{
     margin-left: 20px;
     margin-right: 20px;
 }
+.close{
+    position: absolute;
+    top: 0;
+    left: 15.5%;
+    cursor: pointer;
+    font-size: 50px;
+    width: 60px;
+    display: block;
+}
+.fa-bars{
+position: absolute;
+color: yellow;
+}
+.fa-times{
+color: yellow;
+transition: .3s linear;
+display: none;
+}
+.fa-times:hover,
+.fa-bars:hover{
+    color: red;
+}
