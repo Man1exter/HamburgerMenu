@@ -6,11 +6,16 @@ const times = document.querySelector(".fa-times");
 
 
 const shows = () => {
-bars.classList.add("burger");
-}
+changer.classList.add("burger");
+move.classList.add("show");
+bars.classList.remove("hide");
+};
+
 const hides = () => {
-    bars.classList.remove("burger");
-    }
+changer.classList.remove("burger");
+bars.classList.add("hide");
+times.classList.add("show");
+};
 
 
 bars.addEventListener("click",shows);

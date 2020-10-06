@@ -59,11 +59,14 @@ i:hover{
 .fa-bars{
 position: absolute;
 color: yellow;
+display: block;
+
 }
 .fa-times{
 color: yellow;
 transition: .3s linear;
 display: none;
+
 }
 .fa-times:hover,
 .fa-bars:hover{
@@ -80,7 +83,4 @@ display: none;
 .burger{
 left: 16%;
 transition: .3s linear;
-}
-.extes{
-    display: block;
 }
