@@ -11,6 +11,7 @@ body{
     width: 300px;
     height: 99.62vh;
     background: linear-gradient(to right,rgb(0, 255, 170),blue);
+    transition: .3s linear;
 }
 .sq{
     display: flex;
@@ -78,4 +79,5 @@ display: none;
 }
 .burger{
 left: 15.5%;
+transition: .3s linear;
 }
